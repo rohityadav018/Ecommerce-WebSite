@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Ecommerce-WebSite/static/css/main.510694d6.css",
+    "main.js": "/Ecommerce-WebSite/static/js/main.edc474ca.js",
+    "static/js/787.46493d11.chunk.js": "/Ecommerce-WebSite/static/js/787.46493d11.chunk.js",
+    "static/media/acc.jpg": "/Ecommerce-WebSite/static/media/acc.e4623c6b4bddfa0b044c.jpg",
+    "static/media/bgMainImg.svg": "/Ecommerce-WebSite/static/media/bgMainImg.5d4e554e45083971c90238dd5a13059b.svg",
+    "static/media/checkout_photo.jpeg": "/Ecommerce-WebSite/static/media/checkout_photo.50cdc4580667b413f1df.jpeg",
+    "static/media/decoration.jpeg": "/Ecommerce-WebSite/static/media/decoration.63fcb8de9b211a1cf252.jpeg",
+    "static/media/electronics.jpeg": "/Ecommerce-WebSite/static/media/electronics.45c76af359f1c936eca6.jpeg",
+    "static/media/essentials.jpeg": "/Ecommerce-WebSite/static/media/essentials.723e70ecd73b31f389cc.jpeg",
+    "static/media/beauty.jpeg": "/Ecommerce-WebSite/static/media/beauty.a6a9915be0d16c960aac.jpeg",
+    "static/media/fashion.jpeg": "/Ecommerce-WebSite/static/media/fashion.b48c4c5a3483e1faed9c.jpeg",
+    "static/media/button_logo.svg": "/Ecommerce-WebSite/static/media/button_logo.2b15a653f9b3d00069efab5b23b55176.svg",
+    "index.html": "/Ecommerce-WebSite/index.html",
+    "main.510694d6.css.map": "/Ecommerce-WebSite/static/css/main.510694d6.css.map",
+    "main.edc474ca.js.map": "/Ecommerce-WebSite/static/js/main.edc474ca.js.map",
+    "787.46493d11.chunk.js.map": "/Ecommerce-WebSite/static/js/787.46493d11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.510694d6.css",
+    "static/js/main.edc474ca.js"
+  ]
+}
