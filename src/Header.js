@@ -16,7 +16,7 @@ function Header() {
     <div className="navBar-wrapper">
       <nav className="Header">
         {/* logo in the left */}
-        <Link to="/" className="headerLogo-Link">
+        <Link to="/Ecommerce-WebSite" className="headerLogo-Link">
           <span className="WebsiteHeading2">
             SH
             <Logo logoEdit="Ologo-wrapper2" />
@@ -41,7 +41,7 @@ function Header() {
           </Link>
 
           {/* second link */}
-          <Link to="/" className="header_link">
+          <Link to="/home" className="header_link">
             <div className="header_option">
               <span className="header_optionLineOne">Returns </span>
               <span className="header_optionLineTwo">& Orders</span>
