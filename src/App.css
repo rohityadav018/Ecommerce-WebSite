@@ -1,3 +1,125 @@
 * {
   margin: 0;
 }
+.MainStartingPage {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.WebsiteHeading {
+  color: aqua;
+  width: 80%;
+  height: 300px;
+  font-size: 5em;
+  /* background-color: antiquewhite; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 40px;
+}
+.WebsiteHeading2 {
+  color: aqua;
+
+  font-size: 2em;
+  /* background-color: antiquewhite; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Ologo-wrapper {
+  position: relative;
+  height: 70px;
+  width: 70px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Ologo-wrapper2 {
+  position: relative;
+  height: 70px;
+  width: 70px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.O {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border: 2px solid aqua;
+
+  border-radius: 50%;
+}
+
+#id1 {
+  height: 60%;
+  width: 60%;
+  background-color: aqua;
+}
+#id2 {
+  animation-name: rotate1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes rotate1 {
+  100% {
+    transform: rotateX(-360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+#id3 {
+  animation-name: rotate2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.3s;
+}
+@keyframes rotate2 {
+  100% {
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+.Btn-getstarted {
+  height: 280px;
+  width: 280px;
+}
+.headerLogo-Link {
+  text-decoration: none;
+}
+
+/* media query */
+@media screen and (max-width: 280px) {
+  .WebsiteHeading {
+    letter-spacing: 10px;
+    font-size: 2.7em;
+  }
+  .Ologo-wrapper {
+    margin: 0px;
+  }
+}
+@media screen and (min-width: 280px) and (max-width: 415px) {
+  .WebsiteHeading {
+    letter-spacing: 10px;
+    font-size: 3em;
+  }
+  .Ologo-wrapper {
+    margin: 0px;
+  }
+}
+@media screen and (min-width: 415px) and (max-width: 800px) {
+  .WebsiteHeading {
+    letter-spacing: 10px;
+    font-size: 4em;
+  }
+  .Ologo-wrapper {
+    margin: 0px;
+  }
+}

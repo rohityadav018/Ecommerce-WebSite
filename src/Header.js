@@ -1,10 +1,11 @@
 import React from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
-import logo_ecomm from "./logo_ecomm.jpeg";
+
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
 import { useStateValue } from "./StateProvider";
+import Logo from "./AppLogo";
 
 function Header() {
   const [{ basket }] = useStateValue();
@@ -15,8 +16,12 @@ function Header() {
     <div className="navBar-wrapper">
       <nav className="Header">
         {/* logo in the left */}
-        <Link to="/">
-          <img className="header_logo" src={logo_ecomm} alt="" />
+        <Link to="/" className="headerLogo-Link">
+          <span className="WebsiteHeading2">
+            SH
+            <Logo logoEdit="Ologo-wrapper2" />
+            PEY
+          </span>
         </Link>
 
         {/* searxh box */}
