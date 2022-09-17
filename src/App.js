@@ -48,6 +48,7 @@ function App() {
         <div className="app">
           <Routes>
             <Route
+              exact
               path="/checkout"
               element={
                 <>
@@ -58,6 +59,7 @@ function App() {
               }
             />
             <Route
+              exact
               path="/login"
               element={
                 <>
@@ -67,21 +69,16 @@ function App() {
               }
             ></Route>
             <Route
-              path="/"
+              exact
+              path="/Ecommerce-WebSite"
               element={
                 <>
-                  {/* <Header />
-                  <Home
-                  // setTotalPrice={setTotalPrice}
-                  // totalPrice={totalPrice}
-                  // totalItems={totalItems}
-                  // setTotalItems={setTotalItems}
-                  /> */}
                   <StartingPage />
                 </>
               }
             />
             <Route
+              exact
               path="/home"
               element={
                 <>
@@ -96,6 +93,7 @@ function App() {
               }
             />
             <Route
+              exact
               path="/Accessories"
               element={
                 <>
@@ -105,6 +103,7 @@ function App() {
               }
             />
             <Route
+              exact
               path="/Electronics"
               element={
                 <>
@@ -114,6 +113,7 @@ function App() {
               }
             />
             <Route
+              exact
               path="/Decor_home"
               element={
                 <>
@@ -123,6 +123,7 @@ function App() {
               }
             />
             <Route
+              exact
               path="/Fitness"
               element={
                 <>
@@ -132,6 +133,7 @@ function App() {
               }
             />
             <Route
+              exact
               path="/Fashion"
               element={
                 <>
@@ -141,6 +143,7 @@ function App() {
               }
             />
             <Route
+              exact
               path="/Bestseller"
               element={
                 <>
@@ -150,6 +153,7 @@ function App() {
               }
             />
             <Route
+              exact
               path="/Pro_tools"
               element={
                 <>
